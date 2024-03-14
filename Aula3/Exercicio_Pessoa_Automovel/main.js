@@ -12,6 +12,11 @@ class Main {
     addAutomovelPessoa(codPessoa, codAuto, marca, modelo) {
         let pessoa = this.#pessoas.find(pessoa => pessoa.codigo === codPessoa);
         
+        if (!pessoa) {
+            console.log("Pessoa não encontrada");
+            return;
+        }   
+
         pessoa.inserirAutomovel(new Automovel(codAuto, marca, modelo));
     }
 
