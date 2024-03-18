@@ -42,9 +42,3 @@ const animais = [
 
 let animaisVelhos = animais.filter(animal => animal.idade > 5);
 console.log(animaisVelhos);
-
-
-
-
-
-
