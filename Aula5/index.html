@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="post" action="https://www.w3schools.com/action_page.php">
+      <label for="n">Nome:</label>
+      <input id="n" type="text" name="nome" required/>
+      <br /><br />
+
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+      <label for="javascript">JavaScript</label>
+
+      <br /><br />
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> I have a bike</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2"> I have a car</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+      <label for="vehicle3"> I have a boat</label>
+
+      <br /><br />
+      <label for="cars">Choose a car:</label>
+      <select id="cars" name="cars">
+        <option value="-" selected>-------</option>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+
+      <br /><br />
+      <textarea name="message" rows="5" cols="30">
+    You can also define the size of the text area by using CSS:  
+The cat was playing in the garden.
+        </textarea
+      >
+
+      <br /><br />
+
+      <fieldset style="width: 300px">
+        <legend>Dados Pessoais:</legend>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="John" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="Doe" /><br />
+      </fieldset>
+
+      <br />
+      <input list="browsers" name="browser" />
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+
+      <br /><br />
+      <input type="color" name="color" /><br />
+      <input type="date" name="date" /><br />
+      <input type="datetime-local" name="datetime" /><br />
+      <input type="email" name="email" /><br />
+      <input type="file" name="file" /><br />
+      <input type="hidden" name="hidden" value="Form Test" /><br />
+      <input type="month" name="month" /><br />
+      <input type="number" name="number" /><br />
+      <input type="password" name="password" /><br />
+
+      <br /><br />
+      <input type="range" /><br>
+      <input type="reset" /><br>
+      <input type="search" ><br>
+      <input type="time" /><br>
+      <input type="url" /><br>
+      <input type="week" /><br>
+
+      <br /><br />
+      <input type="submit" value="Enviar por submit" />
+    </form>
+    <br />
+    <button onclick="alert('Meu texto')">Clique me</button>
+  </body>
+</html>
