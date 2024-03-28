@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: red;
+    font-size:70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    color: 
+    rgb(255, 255, 255);
+}
+
+.minhaClasse {
+    color: green;
+}
+
+.classeTamanho {
+    font-size: 30px;
+}
+
+#meuId {
+    text-decoration: line-through;
+}
+
+img {
+    width: 200px;
+    border:5px solid red;
+    border-radius: 100px;
+}
+
+.img_1 {
+    width: 400px;
+    border:5px solid rgb(85, 255, 0);
+    border-radius: 0;
+}
+
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  .pixelify-sans {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
