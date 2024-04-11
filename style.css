@@ -55,6 +55,7 @@ nav {
     height: 300px;
     padding: 10px;
     margin-top: 10px;
+    color: white;
 
     display: flex;
     flex-direction: row;
