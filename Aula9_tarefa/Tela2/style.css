@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+/* ================================================= */
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 110px;
+    column-gap: 98px;
+}
+
+.principal__conteudoEsq {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    width: 540px;
+    margin-top: 60px;
+}
+
+.principal__conteudoEsq__titulo {
+    font-family: 'Red Rose', cursive;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    color: #091133;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6F7CB2;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 36px;
+    
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+
+    background-color: #111B47;
+    border: 2px solid #111B47;
+    color: #FFFFFF;
+}
+
+.buttonWhite {
+    background-color: #FFFFFF;
+    border: 2px solid #111B47;
+    color: #111B47;
+}
+
+.principal__conteudoEsq__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 29px;
+    margin-top: 36px;
+}
+
+.principal__conteudoEsq__news {
+    display: flex;
+    column-gap: 30px;
+    row-gap: 100px;
+    margin-top: 50px;
+}
+
+
+.principal__conteudoEsq__subTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    color: #091133;
+    margin-top: 14px;
+}
+
+.principal__conteudoEsq__description {
+    color: #5D6970;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 6px;
+}

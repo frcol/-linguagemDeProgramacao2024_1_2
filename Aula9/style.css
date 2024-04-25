@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover {
+    background-color: #317034;
+}
+
+.btn:active {
+    background-color: #000000;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+
+    background-color: #000000;
+    padding: 5px;
+}
+
+.start {
+    border-radius: 20px 0 0 20px;
+}
+
+.end {
+    border-radius: 0 20px 20px 0;
+}
+
+.active {
+    background-color: #6af471;
+    color: #000000;
+}
+
+.tecla {
+    background-color: #d1d1d1;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 400px;
+
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+
+    margin-top: 20px;
+    background-color: rgb(198, 255, 236);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.tecla:hover {
+    background-color: #828282;
+    color: white;
+}
+
+.tecla:active {
+    background-color: white;
+    color: black;
+}
