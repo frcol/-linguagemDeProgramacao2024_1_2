@@ -1,0 +1,22 @@
+{
+  "usuario": [
+    {
+      "id": "6325",
+      "nome": "FABIO RODRIGO COLOMBINI",
+      "email": "fabiorcolombini@gmail.com",
+      "senha": "123456"
+    },
+    {
+      "id": "8a67",
+      "nome": "Mel",
+      "email": "fabiorcolombini@chico.com",
+      "senha": "123"
+    },
+    {
+      "id": "2a15",
+      "nome": "teste",
+      "email": "fabiorcolombini@gmail.com.br",
+      "senha": "123456"
+    }
+  ]
+}

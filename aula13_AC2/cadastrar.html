@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Cadastrar - AC2</title>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <section class="content_esq">
+                <h1 class="title branco" style="margin-top: 218px;">Faça seu cadastro!</h1>
+                <p class="size20" style="margin-top: 23px;">AC2 de Linguagem de programação</p>
+            </section>
+
+            <section class="content_dir" style="margin-top: 97px;">
+                <h1 class="title">Cadastrar</h1>
+                <form id="formCad" class="contet_form" style="margin-top: 43px;">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <input type="password" name="senha" id="senha" placeholder="Senha">
+                    
+                    <button onclick="cadastrar()" class="btn" style="margin-top: 34px;">CADASTRAR</button>
+                </form>
+            </section>
+            
+        </div>
+    </main>
+
+    <script src="js/cadastrar.js"></script>
+</body>
+</html>

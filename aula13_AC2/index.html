@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Login - AC2</title>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <section class="content_esq"  style="margin-top: 87px;">
+                <h1 class="title">Login</h1>
+                <form id="formLogin" class="contet_form" style="margin-top: 47px;">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <input type="password" name="senha" id="senha" placeholder="Senha">
+                    <button  onclick="login()"  class="btn" style="margin-top: 13px;">ENTRAR</button>
+                </form>
+                <p id="msgErro" class="errorMessage"></p>
+            </section>
+
+            <section class="content_dir" style="margin-top: 180px;">
+                <h1 class="title branco">Olá!</h1>
+                <p style="margin-top: 67px;">Registre-se com seus dados pessoais</p>
+                <button onclick="cadastrar()" class="btn btnCadastrar">CADASTRAR</button>
+            </section>
+        </div>
+    </main>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: #FFDAA8;
+
+    font-family: "Inter", sans-serif;
+}
+
+.content {
+    width: 817px;
+    height: 516px;
+    border-radius: 35px;
+    background-color: #FFB053;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.content_esq {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.contet_form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+
+input {
+    width: 321px;
+    height: 40px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 9px;
+    padding-left: 20px;
+}
+
+input::placeholder {
+    font-size: 12px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn {
+    width: 153px;
+    height: 40px;
+    background-color: #000000;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 15px;
+    margin-top: 33px;
+}
+
+.content_dir {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnCadastrar {
+    background-color: #FF9200;
+    color: white;
+    border: 3px solid #ffffff;
+    margin-top: 13px;
+}
+
+.btn:hover {
+    background-color: #3f3f3f;
+}
+
+.btnCadastrar:hover {
+    background-color: #ff6a00;
+}
+
+p {
+    font-size: 15px; 
+    font-weight: 500; 
+    color: white;
+}
+
+.size20 {
+    font-size: 20px;
+}
+
+.branco {
+    color: white;
+}
+
+.preto {
+    color: black;
+}

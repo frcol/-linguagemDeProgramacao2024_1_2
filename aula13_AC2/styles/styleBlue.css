@@ -1,0 +1,32 @@
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: #CDFFFC;
+
+    font-family: "Inter", sans-serif;
+}
+
+.content {
+    width: 817px;
+    height: 516px;
+    border-radius: 35px;
+    background-color: #4B9EFF;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.btnSair {
+    background-color: #0029FF;
+    color: white;
+    border: 3px solid #ffffff;
+    margin-top: 13px;
+}
+
+.btnSair:hover {
+    background-color: #0101c2;
+}
